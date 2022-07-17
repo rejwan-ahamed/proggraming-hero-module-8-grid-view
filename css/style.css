@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.heading{
+    padding-top: 4rem;
+    text-align: center;
+}
+.main-heading{
+    color: #161D25;
+    margin-bottom: .5rem;
+}
+.sub-title{
+    color: #5D7085;
+    font-weight: 300;
+}
+
+.pricing{
+    padding: 8rem 18rem;
+}
+
+.price-body{
+    width: 250px;
+    height: 44rem;
+    background: linear-gradient(180deg, #FDC624 0%, #E6C434 99.36%);
+    padding: 2rem;
+    border-radius: 2px;
+}
+.price-body-2{
+    width: 250px;
+    height: inherit;
+    background: linear-gradient(180deg, #55DCE7 0%, #3DCAD4 100%);
+    padding: 2rem;
+    border-radius: 2px;
+}
+.price-body-3{
+    width: 250px;
+    height: inherit;
+    background: linear-gradient(180deg, #6BDFFF 0%, #3DACFC 100%);
+    padding: 2rem;
+    border-radius: 2px;
+}
+.price-body-4{
+    width: 250px;
+    height: inherit;
+    background: linear-gradient(180deg, #BFCEDC 0%, #939FB3 100%);
+    padding: 2rem;
+    border-radius: 2px;
+}
+.deal-img{
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.price-title{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: .2rem;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.price-sub-title{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+.main-price{
+    font-size: 90px;
+    color: white;
+    font-weight: 600;
+}
+
+.sub-w{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: -3rem;
+}
+
+ul{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.des{
+    color: white;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+.buy-1{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.buy-1.p1{
+    margin-top: 11rem;
+    border-radius: 2px;
+ 
+}
+button.buy-1.p2 {
+    margin-top: 7.5rem;
+    border-radius: 2px;
+}
+button.buy-1.p3 {
+    margin-top: 4.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+}
+button.buy-1.p4 {
+    margin-top: 5.2rem;
+    border-radius: 2px;
+}
+
+.pricing-main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: repeat(4,1fr); */
+    justify-content: space-around;
+}
+
+
+
